@@ -46,7 +46,7 @@ gite clone https://github.com/abdrrahim2002/Memory-Card-Game.git
 
 2. Open the project in [Visual Studio Code](https://code.visualstudio.com/).
 
-3. nstall the **Live Server extension** in VS Code if you haven't already.
+3. Install the **Live Server extension** in VS Code if you haven't already.
 
 4. Right-click on ` memory.html` and select Open with Live Server to start the game.
 
