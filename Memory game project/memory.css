@@ -1,0 +1,33 @@
+.game-box {
+  display: grid;
+  grid-template-columns: repeat(4,100px); /*to make it 4*4 game*/
+  gap: 20px;
+  background-color: whitesmoke;
+  width: fit-content;
+  margin-top: 40px;
+  padding: 40px;
+}
+
+#imgs {
+  width: 100%;
+  cursor:pointer;
+  background-color: brown;
+  color: white;
+}
+
+.restart-button{
+  font-size: 36px;
+  margin-top: 40px;
+}
+
+.main-div{
+  position:absolute;
+  left: 50%;
+  transform: translate(-50%);
+  height: fit-content;
+  width: fit-content;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(1fr , 2);
+  padding-bottom: 5rem;
+}
